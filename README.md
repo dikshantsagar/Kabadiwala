@@ -2,4 +2,4 @@
 Project made for HackData'19 at SNU
 
 - WebApp Home Screen
-![H](https://github.com/dikshantsagar/Kabadiwala/webcontent/images/ss.png)
+![H](https://github.com/dikshantsagar/Kabadiwala/blob/master/webcontent/images/ss.png)
