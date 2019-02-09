@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:backgroundTint="@android:color/darker_gray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/feedListView"
+            android:divider="@android:color/transparent"
+            android:layout_margin="10dp"/>
+    </RelativeLayout>
+
+    <android.support.design.bottomappbar.BottomAppBar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:id="@+id/bottomAppBar"
+        android:layout_gravity="bottom"
+        android:backgroundTint="#ff6600"
+        app:fabAlignmentMode="center"
+        app:fabCradleMargin="5dp"
+        app:menu="@menu/main_menu"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addButton"
+        app:layout_anchor="@id/bottomAppBar"
+        android:backgroundTint="#ff6600"
+        android:src="@drawable/add"
+        app:fabSize="normal"/>
+
+</android.support.design.widget.CoordinatorLayout>
