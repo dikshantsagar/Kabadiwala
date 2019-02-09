@@ -1,0 +1,58 @@
+
+
+<html>
+<head>
+	<title>Item</title>
+    
+	<link rel="stylesheet" type="text/css" href="style.css"/ media="all">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase-database.js"></script>
+</head>
+<body id='body'>
+
+<!--Header-->
+
+	<div class="navbar navbar-expand-sm " style="  background-color: #e65c00;">
+		<ul class="navbar-nav">
+		  	<li class="nav-item active">
+				<img src="logo.png" style="height: 70px; width: 190px;">
+			</li>
+			<li class="nav-item active" style="margin-left: 1050px;">
+				<div class="dropdown">
+				<button  class="btn dropdown-toggle" style=" background-color:#ffffff ; color: black; width: 150px; margin-top:10px;" data-toggle="dropdown"><h4><i class="fas fa-user"> </i>&nbsp; Vidit</h4></button>
+				<div class="dropdown-menu">
+    				<a class="dropdown-item" href="index.html"><i class="fas fa-sign-out-alt"></i>Logout</a>
+ 				 </div>
+				</div>
+			</li>
+		</ul>
+	</div>
+<!--Header-->
+
+<div class="card bg-light" style="margin: 1%;">
+	<h1 style="margin-left: 40%;">Item</h1>
+</div>
+<div class="card bg-light" style="margin: 1%; padding:1%; " id='container'>
+
+</div>
+<script src="item.js"></script>
+
+
+<!-- footer-->
+	<div style="position: fixed;
+	   left: 0;
+	   bottom: 0;
+	   width: 100%;
+	   height: 50px;">
+
+	      		
+		<p style="text-align: left; color:#718cab;"><button type="button" class="btn btn-outline  disabled">©All rights reserved | Made with <i class="fas fa-heart"></i> by <strong>IIIT Delhi</strong></button></p>
+
+	</div>
+</body>
+</html>
